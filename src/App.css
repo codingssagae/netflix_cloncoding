@@ -1,0 +1,456 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*시작*/
+
+#header{
+    height: 64px;
+	display: flex;
+}
+#header_wrap{
+    height: 50%;
+	width: 1135.33px;
+	
+    margin: auto;
+	display: flex;
+	justify-content: center;
+    
+
+  
+   
+	
+	
+}
+.header_content{
+	font-size: 16px;
+	
+}
+
+.body1{
+
+	height: 700px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+
+	background: linear-gradient(
+		to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%
+	), url(https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/20daee97-3054-4bd6-9088-13c2fefc1a54/KR-ko-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+	
+}
+.bw1{
+	height: 86px;
+	width: 80%;
+	margin: 32px;
+
+	justify-content: space-around;
+
+	display: flex;
+	
+}
+.bw1_2, .bw1_3{
+	flex-grow: 1;
+	display: flex;
+}
+.bw1_1{	
+	margin-right: 690px;
+}
+.bw1_2_1{
+	width: 100%;
+	height: 50%;
+	margin: auto;
+}
+.bw1_3_1{
+	width: 100%;
+	height: 50%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+.button1{
+	font-size: 14px;
+	margin-left: 16px;
+	width: 74px;
+	height: 32px;
+	color: white;
+	background-color: #e50914;
+	
+	
+}
+.body2{
+	height: 545.25px;
+	background-color: black;
+	display: flex;
+	padding: 32px;
+
+}
+.body3{
+	height: 545.25px;
+	background-color: black;
+	display: flex;
+	padding: 32px;
+	
+}
+.body4{
+	height: 545.25px;
+	background-color: black;
+	display: flex;
+	padding: 32px;
+	
+}
+.body4_1{
+	width: 1071.33px;
+	height: 401.25px;
+	margin: auto;
+	align-items: center;
+	display: flex;
+
+}
+.body4_1_text h2{
+	font-size: 48px;
+}
+.body4_1_text p{
+	font-size: 24px;
+	margin-top: 16px;
+
+}
+.body5{
+	height: 545.25px;
+	background-color: black;
+	display: flex;
+	padding: 32px;
+	border-bottom: 8px solid #202020;
+	
+}
+.body5_1{
+	width: 1071.33px;
+	height: 401.25px;
+	margin: auto;
+	align-items: center;
+	display: flex;
+
+
+}
+.body5_1_text h2{
+	font-size: 48px;
+}
+.body5_1_text p{
+	font-size: 24px;
+	margin-top: 16px;
+}
+.body3_1_text h2{
+	font-size: 48px;
+}
+.body3_1_text p{
+	font-size: 24px;
+	margin-top: 16px;
+}
+.body6{
+	height: 3200.26px;
+	background-color: black;
+	
+}
+.body1_1{
+	height: 238.67px;
+	width: 838.3px;
+	text-align: center;	
+}
+.body1_1 p{
+	margin: 16px;
+	font-size: 24px;
+}
+.body1_1 h1{
+	padding-top: 5%;
+	font-size: 48px;
+}
+.body1_1 h3{
+	font-size: 20px;	
+}
+.body2_1{
+	
+	width: 1071.33px;
+	height: 401.25px;
+	margin: auto;
+	align-items: center;
+	display: flex;
+
+}
+
+.body2_1_text h2{
+	font-size: 48px;	
+}
+.body2_1_text p{
+	font-size: 24px;
+	margin-top: 16px;
+}
+.body3_1{
+
+	width: 1071.33px;
+	height: 401.25px;
+	margin: auto;
+	align-items: center;
+	display: flex;
+
+}
+.back-to-top {
+	display: none;
+	position: fixed;
+	font-size: 14px;
+	background-color: #000;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+	z-index: 9999;
+  }
+.body6{
+    display: flex;
+    flex-direction: column;
+}
+.body6_1{
+	font-size: xx-large;
+	color: aqua;
+	line-height: 2.0;
+	text-align: center;
+}
+.active{
+    background-color: tomato;
+    text-decoration: none;
+	border-radius: 10px;
+}
+
+.suggestion{
+	font-size: 50px;
+	color: yellow;
+	font-weight: 700;
+}
+.namjaStory, .gunchukStory{
+	border: 10px solid sienna;
+	font-size: 30px;
+	color: gold;
+	text-align: center;
+	align-items: center;
+	line-height: 2.0;
+
+}
+.lalaStory, .transStory, .crimeCityStory,.crimeCityStory,.jasonStory
+,.flowerStory,.conanStory,.infiniteTrainStory, .giantStory, .shinjangStory
+,.bunNoStory{
+	border: 10px solid red;
+	font-size: 30px;
+	color: gold;
+	text-align: center;
+	align-items: center;
+	line-height: 2.0;
+}
+.gunChukImg, .lalaImg, .transImg, .flowerImg, .conanImg , .shinjangImg
+,.bunNoImg{
+	width: 20%;
+}
+.namjsImg, .crimeCityImg, .jasonImg, .infiniteTrainImg
+, .giantImg{
+	width: 20%;
+}
+.searchBoard{
+	color: chartreuse;
+	display: flex;
+	justify-content: center;
+ 	align-items: center;
+}
+.todo-item{
+    width: 50px;
+    height: 25px;
+    font-size: x-small;
+	float: left;
+}
+.sEarch{
+	font-size: small;
+}
+.searchInput{
+ width: 600px;
+ height: 50px;
+}
+.searchButton{
+	width: 50px;
+	height: 50px;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	padding: 8px 12px;
+}
+.navbar_manu{
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	
+}
+.navbar_manu li{
+	font-family: 'Roboto Mono';
+	padding: 8px 12px;
+}
+.navbar_manu a{
+	text-decoration: none;
+	color: wheat;
+}
+footer{
+	border-top: 8px solid gray;
+}
+.fa-brands.fa-square-twitter{
+	color: skyblue;
+}
+.fa-brands.fa-facebook{
+	color: blue;
+}
+.navbar_icons{
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+.navbar_icons li{
+	padding: 8px 12px;
+	font-size: 25px;
+}
+.navbar_toogleBtn{
+	display: none;
+	position: absolute;
+	right: 32px;
+	font-size: 35px;
+	padding-top: 20px;
+	color: #e50914;
+}
+@media screen and (max-width: 940px) {
+	.lalaStory, .transStory, .crimeCityStory,.crimeCityStory,.jasonStory
+	,.flowerStory,.conanStory,.infiniteTrainStory, .giantStory, .shinjangStory
+	,.bunNoStory,.namjaStory, .gunchukStory{
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 780px) {
+	.lalaStory, .transStory, .crimeCityStory,.crimeCityStory,.jasonStory
+	,.flowerStory,.conanStory,.infiniteTrainStory, .giantStory, .shinjangStory
+	,.bunNoStory,.namjaStory, .gunchukStory{
+		font-size: 20px;
+	}
+}
+@media  screen and (max-width: 1034px) {
+	.navbar{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.navbar_manu{
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.navbar_manu li{
+		width: 100%;
+		text-align: center;
+	}
+	.navbar_toogleBtn{
+		display: block;
+	}
+	.navbar_manu.active{
+        display: flex;
+    }
+
+}
+
+.wrapper{
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+	margin-top:  20px;
+}
+.title:hover{
+	background: #303030;
+}  
+  .accordion{
+	width: 80%;
+  }
+  
+  .item{
+	background: 	#202020;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+  }
+  
+  .title{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+  }
+  
+  .content{
+	color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.5s cubic-bezier(0,1,0,1);
+  }
+  
+  .content.show{
+	height: auto;
+	max-height: 9999px;
+	transition: all 0.5s cubic-bezier(1,0,1,0);
+	border-top: 3px solid black;
+  }
+
+  .jaju{
+	color: white;
+	font-size: 50px;
+	padding-bottom: 10%;
+	font-weight: bolder;
+	margin-top: 50px;
+  }
